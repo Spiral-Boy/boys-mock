@@ -1,0 +1,39 @@
+.site-header {
+	background-color: #8FBC8F;
+}
+.search {
+	width: 400px;
+	padding-bottom: 10px;
+}
+ul {
+	list-style: none
+}
+.genre {
+	background-color: #f5f5f5;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+}
+.genre ul {
+	margin: 30px 0;
+}
+.genre li {
+	background-color: #f5f5f5;
+}
+.product-box {
+	margin: 30px;
+}
+.product p {
+    margin: 0;
+}
+.product img {
+    margin-bottom: 10px;
+}
+.product a {
+    margin-bottom: 10px;
+}
+.product nav {
+	text-align: center;
+}
+.heading-text {
+	padding-left: 20px;
+}
