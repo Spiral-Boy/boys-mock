@@ -30,12 +30,10 @@ td {
 .cart {
 	width: 70%;
 	float: left;
-}
-.cart-main {
 	padding: 20px 0;
 	margin: 20px 0;
-	border-top: 1px solid #C0C0C0;
-	border-bottom: 1px solid #C0C0C0;
+	border-radius: 4px;
+	background-color: white;
 }
 .product-img {
 	margin-left: 20px;
@@ -43,18 +41,20 @@ td {
 .order {
 	float:right;
 	width: 25%;
-	height: 300px;
+	height: 150px;
 	border: 1px solid #8FBC8F;
+	border-radius: 4px;
+	box-shadow: 1px 0 5px 4px #8FBC8F;
 }
 .order-btn{
 	text-align: center;
     display: block;
-    padding: 10px 40px;
+    padding: 10px;
     margin: 30px 30px 10px 30px;
     text-decoration: none;
     background: #8FBC8F;
     color: #FFF;
-    border-radius: 3px;
+    border-radius: 4px;
 }
 .order-all{
 	margin: 0 40px;
@@ -68,7 +68,12 @@ td {
 	color: #8FBC8F;
 }
 
-
+.content-box {
+	background: #f0f0f0;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    padding: 40px;
+}
 
 
 
