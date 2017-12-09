@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+a {
+	text-decoration: none;
+}
+.clearfix::after {
+	content:"";
+	display:block;
+	clear:both;
+}
+
+body {
+	min-width: 1000px;
+	margin: auto;
+	position: relative;
+	color: #2d2d2d;
+	font-size: 13px;
+	line-height: 1.6;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Lucida Grande", Verdana, "ＭＳ Ｐゴシック", sans-serif
+}
+
+#body {
+	width: 980px;
+	margin: 0 auto 0;
+	position: relative;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+.contents {
+    max-width: 990px;
+    margin: 0 auto;
+}
+.leftcontent,
+.rightcontent {
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 100px;
+}
+.leftcontent {
+	position: relative;
+    float: left;
+    width: 200px;
+    padding: 19px 19px;
+    border: 1px solid #dedede;
+
+}
+.leftcontent h2 {
+	font-size: 18px;
+	position: relative;
+}
+.lists {
+	margin: 17px 0 0 ;
+	padding: 0;
+	border-top: #ebebeb 1px solid;
+}
+.lists li {
+	margin: 17px 0 0;
+	line-height: 1.4;
+	border-bottom: #ebebeb 1px solid;
+}
+#rightcontent {
+    float: right;
+    width: 760px;
+    margin-top: 100px;
+}
+#productlist {
+	margin: 10PX 0 0;
+}
+#product {
+	width: 100%;
+	border-top: 1px solid #ededed;
+}
+#productlistblock {
+	padding: 0 0 25px;
+}
+#productlists {
+	margin: 0 0 0 -35px;
+}
+#productlists li {
+	float: left;
+	width: 125px;
+	margin: 0 0 0 34px;
+	height: 263px;
+}
+.listinner {
+	font-size: 10px;
+}
+.thumb {
+	text-align: left;
+	padding: 12px 0 0 0;
+}
+.thumb a {
+	width: 125px;
+	height: 150px;
+	display: inline-block;
+}
+.thumb a img {
+	width: 125px;
+	height: 150px;
+	display: block;
+}
+.listinner div {
+	margin: 6px 0 0;
+	line-height: 1.5;
+}
+.musicname {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 12px;
+	width: 102px;
+}
+.price {
+	margin: 4px 0 0 0;
+	font-size: 15px;
+	line-height: 1.1;
+}
+.header-color {
+	background-color: #8fbc8f;
+}
+.nav {
+	color: #fafafa;
+	padding-top: 5px;
+}
+.search-bar {
+  padding-top: 50px;
+  background-color: silver;
+  border-radius: 0px;
+}
+#search-icon {
+  float: left;
+  padding-top: 9px;
+  font-size: 22px;
+}
+#itemsearch {
+  float: left;
+  padding-top: 12px;
+}
+#sidebar {
+  background-color: blue;
+  height: 500px;
+}
+#search-result{
+  /*background-color: green;*/
+  height: 500px;
+
+}
+.search-item {
+  width: 100px;
+  height: 120px;
+  margin: 10px;
+  float: left;
+  background-color: #8fbc8f;
+}
+.search-item-image {
+  width: 100px;
+  height: 100px;
+  background-color: #fafafa;
+}
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #8fbc8f;
+  margin-top: 20px;
+}
+footer a {
+  color: #fafafa;
+}
