@@ -75,6 +75,9 @@ td {
     border-radius: 4px;
     padding: 40px;
 }
+header a {
+  font-size: 14px;
+}
 .header-color {
 	background-color: #8fbc8f;
 }
