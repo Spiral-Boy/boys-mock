@@ -122,6 +122,9 @@ ol, ul {
 	font-size: 15px;
 	line-height: 1.1;
 }
+header a {
+  font-size: 14px;
+}
 .header-color {
 	background-color: #8fbc8f;
 }
