@@ -7,6 +7,14 @@
 a {
 	text-decoration: none;
 }
+body {
+  overflow: visible !important;
+  background: -webkit-linear-gradient(45deg, #085078 10%, #85d8ce 90%);
+  background: -moz-linear-gradient(45deg, #085078 10%, #85d8ce 90%);
+  background: -ms-linear-gradient(45deg, #085078 10%, #85d8ce 90%);
+  background: -o-linear-gradient(45deg, #085078 10%, #85d8ce 90%);
+  background: linear-gradient(45deg, #085078 10%, #85d8ce 90%);
+ }
 .clearfix::after {
 	content:"";
 	display:block;
@@ -204,7 +212,7 @@ ul, ol {
 	padding: 8px 13px 10px 11px;
 }
 .header-color {
-	background-color: #8fbc8f;
+	background-color: #3d3d3e;
 }
 .nav {
 	color: #fafafa;
@@ -248,7 +256,7 @@ ul, ol {
 footer {
   text-align: center;
   padding: 10px;
-  background: #8fbc8f;
+  background: #3d3d3e;
   margin-top: 20px;
 }
 footer a {
