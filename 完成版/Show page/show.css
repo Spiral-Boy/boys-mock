@@ -13,6 +13,16 @@ a {
 	clear:both;
 }
 
+body {
+	min-width: 1000px;
+	margin: auto;
+	position: relative;
+	color: #2d2d2d;
+	font-size: 13px;
+	line-height: 1.6;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Lucida Grande", Verdana, "ＭＳ Ｐゴシック", sans-serif
+}
+
 ul, ol {
 	list-style: none;
 }

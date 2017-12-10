@@ -135,6 +135,9 @@ ol, ul {
 .form-footer a:hover {
   border-bottom: 1px dotted #8c8c8c;
 }
+header a {
+  font-size: 14px;
+}
 .header-color {
 	background-color: #8fbc8f;
 }

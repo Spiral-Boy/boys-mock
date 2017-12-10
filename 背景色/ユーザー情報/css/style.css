@@ -1,0 +1,11 @@
+.site-header {
+	background-color: #8FBC8F;
+}
+.value-area {
+	display: inline-block;
+	width: 100px;
+}
+.genre-area {
+	display: inline-block;
+	width: 200px;
+}

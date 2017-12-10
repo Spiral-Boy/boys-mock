@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+a {
+	text-decoration: none;
+}
+body {
+  overflow: visible !important;
+  background: -webkit-linear-gradient(45deg, #085078 10%, #85d8ce 90%);
+  background: -moz-linear-gradient(45deg, #085078 10%, #85d8ce 90%);
+  background: -ms-linear-gradient(45deg, #085078 10%, #85d8ce 90%);
+  background: -o-linear-gradient(45deg, #085078 10%, #85d8ce 90%);
+  background: linear-gradient(45deg, #085078 10%, #85d8ce 90%);
+ }
+.clearfix::after {
+	content:"";
+	display:block;
+	clear:both;
+}
+
+body {
+	min-width: 1000px;
+	margin: auto;
+	position: relative;
+	color: #2d2d2d;
+	font-size: 13px;
+	line-height: 1.6;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Lucida Grande", Verdana, "ＭＳ Ｐゴシック", sans-serif
+}
+
+ul, ol {
+	list-style: none;
+}
+
+#contentsArea {
+	width: 1024px;
+	padding: 0 0 20px 0;
+	margin: 0 auto;
+	clear: both;
+}
+
+#mainContent {
+	background: url(img/mainContent.gif) left top repeat-y;
+	margin-top: 100px;
+}
+
+#mainContentInner {
+	background: url(img/mainContentInner.gif) left bottom no-repeat;
+	width: 1024px;
+	padding: 0 33px 23px 33px;
+	line-height: 1.5;
+}
+
+.subtitle {
+	margin-left: -33px;
+	padding-bottom: 15px;
+}
+
+.goodsMainArea {
+	padding: 0 0 20px;
+	margin-bottom: 20px;
+	zoom: 1;
+}
+
+.goodsJacket {
+	width: 192px;
+	float: left;
+	margin-right: 20px;
+}
+
+.goodsJacketInner {
+	padding: 0 10px 10px;
+}
+
+.goodsJacketInner table {
+	margin-bottom: 5px;
+}
+.goodsJacketInner table td {
+	width: 170px;
+	height: 170px;
+	border: 1px solid #ebeaea;
+	text-align: center;
+	vertical-align: middle;
+}
+.goodsJacketInner table td img {
+	width: 170px;
+	height: 170px;
+}
+
+.goodsDetail {
+	width: 530px;
+	float: left;
+}
+.productDetail {
+	padding: 0 0 10px;
+	border-bottom: 1px dotted #bdb9b8;
+	margin-bottom: 10px;
+}
+.goodsDetail .musicName, .goodsDetail .artists {
+	font-size: 150%;
+	line-height: 1.2;
+}
+.musicName {
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+.artists {
+	margin-bottom: 5px;
+}
+
+.productDetail2 {
+	padding: 0 0 10px;
+	border-bottom: 1px dotted #bdb9b8;
+	margin-bottom: 10px;
+	font-size: 12px;
+}
+
+
+.goodsDetail2 {
+	width: 192px;
+	float: right;
+
+}
+.goodsCart {
+	padding: 15px 8px 15px 6px;
+	background-color: #e6ecf9
+	margin-bottom: 10px;
+}
+.goodsCart li {
+	margin-bottom: 10px;
+}
+.goodsCart li dl dt {
+	font-size: 107%;
+	font-weight: bold;
+	padding-left: 5px;
+	line-height: 1.1;
+}
+.goodsCart li dl dd {
+	text-align: right;
+}
+.goodsCart li dl dd span {
+	line-height: 1.1;
+	font-size: 167%;
+}
+.cartBtn {
+	border: 1px #555 solid;
+	background: #555;
+	border-radius: 4px;
+	margin-bottom: 2px;
+	text-align: center;
+}
+.cartBtn button {
+	width: 100%;
+	height: 35px;
+	padding: 3px 0 0;
+	border: 0;
+	font-size: 15px;
+}
+.cartBtn button i {
+	font-size: 20px;
+}
+
+.h3title {
+	background: #231815;
+	padding: 8px 10px;
+	min-height: 15px;
+	color: #fff;
+	font-weight: bold;
+	margin-bottom: 10px;
+	font-size: 109%;
+}
+.customerSection {
+	padding: 0 10px 40px;
+}
+.productDetailInfoTable {
+	width: 100%;
+}
+
+.productDetailInfoTable table {
+	width: 100%;
+	border-collapse: separate;
+	border-spacing: 1px;
+}
+.productDetailInfoTable table th {
+	background-color: #c6c6c6;
+	text-align: left;
+}
+.productDetailInfoTable table th div {
+	padding: 8px;
+}
+.productDetailInfoTable table th div p {
+	font-weight: bold;
+}
+.productDetailInfoTable table {
+	background-color: #f2f2f2;
+}
+
+
+.customerSection {
+	padding: 0 10px 40px;
+}
+.productDetailSentenceList {
+	width: 934px;
+}
+.productDetailSentenceTop {
+	padding-top: 4px;
+}
+.productDetailSentenceMid {
+	padding: 8px 13px 10px 11px;
+}
+.header-color {
+	background-color: #3d3d3e;
+}
+.nav {
+	color: #fafafa;
+	padding-top: 5px;
+}
+.search-bar {
+  padding-top: 50px;
+  background-color: silver;
+  border-radius: 0px;
+}
+#search-icon {
+  float: left;
+  padding-top: 9px;
+  font-size: 22px;
+}
+#itemsearch {
+  float: left;
+  padding-top: 12px;
+}
+#sidebar {
+  background-color: blue;
+  height: 500px;
+}
+#search-result{
+  /*background-color: green;*/
+  height: 500px;
+
+}
+.search-item {
+  width: 100px;
+  height: 120px;
+  margin: 10px;
+  float: left;
+  background-color: #8fbc8f;
+}
+.search-item-image {
+  width: 100px;
+  height: 100px;
+  background-color: #fafafa;
+}
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #3d3d3e;
+  margin-top: 20px;
+}
+footer a {
+  color: #fafafa;
+}
