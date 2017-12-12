@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>User My Page</title>
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" type="text/css" href="member.css">
+	</head>
+	<body id="spiral-disc">
+		<header class="navbar navbar-fixed-top header-color">
+			<div class="container">
+				<span>
+			      <a class="" href="#"><img src="img/logo.png" alt="" class="logo"></a>
+			    </span>
+			    <ul class="nav pull-right nav-pills">
+			      <li><a href="" class="nav">こんにちは、ゲスト様</a></li>
+			      <li><a href="" class="nav">ようこそ、username様</a></li>
+			      <li><a href="" class="nav">Sign in</a></li>
+			      <li><a href="" class="nav">Sign up</a></li>
+			      <li><a href="" class="nav">My page</a></li>
+			      <li><a href="" class="nav fa fa-cart-plus">Cart</a></li>
+			      <li><a href="" class="nav">Log out</a></li>
+			    </ul>
+			</div>
+		</header>
+		<div id="body" class="twocolumun clearfix">
+		    <div id="searchsidebar">
+				<section class="menubox">
+					<div class="sidebox sidesearchbox">
+						<h3>購入履歴</h3>
+						<ul>
+							<li>
+								<a href="#">発送済み商品</a>
+							</li>
+							<li>
+								<a href="#">発送前商品</a>
+							</li>
+						</ul>
+					</div>
+					<div class="sidebox sidesearchbox">
+						<h3>会員登録情報</h3>
+						<ul>
+							<li>
+								<a href="#">会員登録情報</a>
+							</li>
+						</ul>
+					</div>
+					<div class="sidebox sidesearchbox">
+						<h3>退会</h3>
+						<ul>
+							<li>
+								<a href="#">退会の手続き</a>
+							</li>
+						</ul>
+					</div>
+				</section>
+		    </div>
+		    <div id="content" class="clearfix">
+		    	<article>
+		    		<section id="orderlist">
+		    			<section class="section">
+		    				<!-- 発送済み商品　-->
+		    				<div class="sectionheader">
+		    					<h3>発送済み商品</h3>
+		    				</div>
+		    				<div class="listblock clearfix">
+		    					<div class="orderlist">
+		    						<p class="orderstatus clearfix">
+		    							<span class="status">発送済み</span>
+		    							<span class="deliveryday">発送日 :20**.**.**</span>
+		    						</p>
+		    						<table class="orderdetail resist">
+		    							<tbody>
+		    								<tr class="thumbbox">
+		    									<td class="goodsbox">
+		    										<div class="clearfix goodsdata">
+		    											<div class="thumb">
+		    												<p class="img">
+		    													<img width="110" height="132" src="img/image1.jpg">
+		    												</p>
+		    											</div>
+		    											<div class="thumbdetail">
+		    												<p class="artistsname">sonic youth</p>
+		    												<p class="musicname">simon werner a disparu</p>
+		    												<p class="price">¥1,080
+		    													<span class="tax">税込</span>
+		    													/
+		    													<span class="cnt">数量 : 1</span>
+		    												</p>
+		    											</div>
+		    										</div>
+		    									</td>
+		    								</tr>
+		    								<tr class="thumbbox">
+		    									<td class="goodsbox">
+		    										<div class="clearfix goodsdata">
+		    											<div class="thumb">
+		    												<p class="img">
+		    													<img width="110" height="132" src="img/image2.jpg">
+		    												</p>
+		    											</div>
+		    											<div class="thumbdetail">
+		    												<p class="artistsname">antonio carlos jobim</p>
+		    												<p class="musicname">wave</p>
+		    												<p class="price">¥1,296
+		    													<span class="tax">税込</span>
+		    													/
+		    													<span class="cnt">数量 : 1</span>
+		    												</p>
+		    											</div>
+		    										</div>
+		    									</td>
+		    								</tr>
+		    							</tbody>
+		    						</table>
+		    						<ul class="orderpaydetail clearfix">
+		    							<li>
+		    								<span>支払方法</span>
+		    								 : 現金
+		    							</li>
+		    							<li>
+		    								<span>合計</span>
+		    								 : ¥2,376
+		    							</li>
+		    						</ul>
+		    					</div>
+		    				</div>
+		    			</section>
+		    		</section>
+		    		<section id="orderlist">
+		    			<section class="section">
+		    				<!-- 発送前商品 -->
+		    				<div class="sectionheader">
+		    					<h3>発送前商品</h3>
+		    				</div>
+		    				<div class="noresult">
+		    					<p class="txt">発送前商品はありません。</p>
+		    					<p class="info">
+		    						注文履歴の反映には、お時間がかかる場合があります。
+		    					</p>
+		    				</div>
+		    			</section>
+		    		</section>
+					<section id="secregist" class="section">
+						<div class="sectioninner">
+							<div class="sectionheader">
+								<h3>会員登録情報</h3>
+							</div>
+							<div class="sectionbody">
+								<table>
+									<tbody>
+										<tr>
+											<th>基本情報</th>
+											<td>
+												<p>田中　太朗　（タナカ　タロウ）</p>
+												<p>〒123-4567</p>
+												<p>東京都◯◯区◯◯1-2-3-456</p>
+												<p>123-4567-8900</p>
+											</td>
+											<td class="change">
+												<p class="btn">
+													<a href="#">変更</a>
+												</p>
+											</td>
+										</tr>
+										<tr>
+											<th>メールアドレス</th>
+											<td>abcdefg@hijk.co.jp</td>
+											<td class="change">
+												<p class="btn">
+													<a href="#">変更</a>
+												</p>
+											</td>
+										</tr>
+										<tr>
+											<th>パスワード</th>
+											<td>********
+												<span class="info password">※ セキュリティのためパスワードは非表示となっています。</span>
+											</td>
+											<td class="change">
+												<p class="btn">
+													<a href="#">変更</a>
+												</p>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</section>
+		    	</article>
+		    </div>
+		</div>
+		<footer class="container-fluid">
+			<div class="container">
+				<ul class="list-inline">
+					<li><a href="" title="" class=""> About</a></li>
+					<li><a href="" title="" class=""> 利用規約</a></li>
+					<li><a href="" title="" class=""> お問い合わせ</a></li>
+				</ul>
+			</div>
+  			<small><a href="/">LOGO</a></small>
+		</footer>
+	</body>

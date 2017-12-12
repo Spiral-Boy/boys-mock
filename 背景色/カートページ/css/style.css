@@ -1,0 +1,151 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+  min-width: 1000px;
+  margin: auto;
+  position: relative;
+  color: #2d2d2d;
+  font-size: 13px;
+  line-height: 1.6;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Lucida Grande", Verdana, "ＭＳ Ｐゴシック", sans-serif
+}
+body {
+  overflow: visible !important;
+  background: -webkit-linear-gradient(45deg, #085078 10%, #85d8ce 90%);
+  background: -moz-linear-gradient(45deg, #085078 10%, #85d8ce 90%);
+  background: -ms-linear-gradient(45deg, #085078 10%, #85d8ce 90%);
+  background: -o-linear-gradient(45deg, #085078 10%, #85d8ce 90%);
+  background: linear-gradient(45deg, #085078 10%, #85d8ce 90%);
+ }
+p {
+  padding: 5px 0;
+}
+td {
+	font-size: 14px;
+}
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/* ----------shopping---------- */
+
+.shopping-box {
+	width: 1024px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.product-img {
+	width: 150px;
+}
+.toptext {
+	padding: 20px 0;
+}
+.cart {
+	width: 70%;
+	float: left;
+	padding: 20px 0;
+	margin: 20px 0;
+	background-color: #f0f0f0;
+  border-top: 1px solid #085078;
+  border-bottom: 1px solid #085078;
+}
+.product-img {
+	margin-left: 20px;
+  margin-bottom: 5px;
+}
+.order {
+	float:right;
+	width: 25%;
+	height: 150px;
+	border: 2px solid #085078;
+	border-radius: 4px;
+}
+.order-btn{
+	text-align: center;
+    display: block;
+    padding: 10px;
+    margin: 30px 30px 10px 30px;
+    text-decoration: none;
+    background: #085078;
+    color: #FFF;
+    border-radius: 4px;
+}
+.order-all{
+	margin: 0 40px;
+}
+.order-all-text {
+	float: left;
+}
+.order-all-price {
+	float: right;
+	font-weight: bold;
+	color: #085078;
+}
+
+.content-box {
+	background: #f0f0f0;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    padding: 40px;
+}
+header a {
+  font-size: 14px;
+}
+.header-color {
+	background-color: #3d3d3e;
+}
+.nav {
+	color: #fafafa;
+	padding-top: 5px;
+}
+.search-bar {
+  padding-top: 50px;
+  background-color: silver;
+  border-radius: 0px;
+}
+#search-icon {
+  float: left;
+  padding-top: 9px;
+  font-size: 22px;
+}
+#itemsearch {
+  float: left;
+  padding-top: 12px;
+}
+#sidebar {
+  background-color: blue;
+  height: 500px;
+}
+#search-result{
+  /*background-color: green;*/
+  height: 500px;
+
+}
+.search-item {
+  width: 100px;
+  height: 120px;
+  margin: 10px;
+  float: left;
+  background-color: #8fbc8f;
+}
+.search-item-image {
+  width: 100px;
+  height: 100px;
+  background-color: #fafafa;
+}
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #3d3d3e;
+  margin-top: 20px;
+}
+footer a {
+  color: #fafafa;
+}
+
+
