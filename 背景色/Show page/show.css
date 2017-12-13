@@ -222,40 +222,9 @@ ul, ol {
 	color: #fafafa;
 	padding-top: 5px;
 }
-.search-bar {
-  padding-top: 50px;
-  background-color: silver;
-  border-radius: 0px;
-}
-#search-icon {
-  float: left;
-  padding-top: 9px;
-  font-size: 22px;
-}
-#itemsearch {
-  float: left;
-  padding-top: 12px;
-}
-#sidebar {
-  background-color: blue;
-  height: 500px;
-}
-#search-result{
-  /*background-color: green;*/
-  height: 500px;
-
-}
-.search-item {
-  width: 100px;
-  height: 120px;
-  margin: 10px;
-  float: left;
-  background-color: #8fbc8f;
-}
-.search-item-image {
-  width: 100px;
-  height: 100px;
-  background-color: #fafafa;
+.search {
+	width: 400px;
+	padding-bottom: 10px;
 }
 footer {
   text-align: center;

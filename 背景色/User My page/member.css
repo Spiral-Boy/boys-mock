@@ -24,57 +24,11 @@ body {
 	display:block;
 	clear:both;
 }
-table {
-	width: 100%;
-	border-collapse: collapse;
-}
-table tbody tr {
-	border-bottom: 1px solid #dcdcdc;
-}
-table tbody th {
-	padding: 25px 0 23px 0;
-	border: none;
-	width: 175px;
-	vertical-align: middle;
-	font-size: 15px;
-}
-table tbody td {
-	padding: 25px 0 23px 0;
-	border: none;
-	line-height: 2.0;
-}
-th, td {
-	text-align: left;
-	vertical-align: middle;
-	empty-cells: show;
-	margin: 0 0 0 0;
-}
-#searchsidebar {
-	float: left;
-	width: 150px;
-	overflow: hidden;
-	margin-top: 70px;
-}
-#searchsidebar .sidebox {
-	margin: 23px 0 0;
-	padding: 0 0 15px;
-	border-bottom: solid 1px #3d3d3e;
-}
-#searchsidebar .sidebox h3 {
-	font-size: 18px;
-}
-#searchsidebar .sidebox ul {
-	margin-top: 8px;
-}
-#searchsidebar .sidebox ul li {
-	margin: 2px 0 0;
-}
-#searchsidebar .sidebox ul li a{
-	padding: 3px 0;
-	display: block;
-	color: #3d3d3e;
-}
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
 #content {
 	float: right;
 	width: 780px;
@@ -189,6 +143,7 @@ table tbody td span.info.password {
 	text-align: right;
 	margin: 20px 0 0 0;
 }
+>>>>>>> origin/master
 body {
   overflow: visible !important;
   background: -webkit-linear-gradient(45deg, #085078 10%, #85d8ce 90%);

@@ -10,10 +10,9 @@
 		<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 		<link rel="stylesheet" href="style.css">
-		<link rel="stylesheet" type="text/css" href="member.css">
 	</head>
 	<body id="spiral-disc">
-		<header class="navbar navbar-fixed-top header-color">
+		<header class="navbar navbar header-color">
 			<div class="container">
 				<span>
 			      <a class="" href="#"><img src="img/logo.png" alt="" class="logo"></a>
@@ -28,6 +27,14 @@
 			      <li><a href="" class="nav">Log out</a></li>
 			    </ul>
 			</div>
+			<div class="container clearfix">
+			<div class="input-group input-group-sm search pull-right">
+				<input type="text" class="form-control" placeholder="検索キーワード">
+				<span class="input-group-btn">
+					<button type="button" class="btn btn-default">検索</button>
+				</span>
+			</div>
+			</div>
 		</header>
 		<div id="body" class="twocolumun clearfix">
 		    <div id="searchsidebar">
@@ -36,10 +43,7 @@
 						<h3>購入履歴</h3>
 						<ul>
 							<li>
-								<a href="#">発送済み商品</a>
-							</li>
-							<li>
-								<a href="#">発送前商品</a>
+								<a href="#">購入履歴</a>
 							</li>
 						</ul>
 					</div>
@@ -65,15 +69,14 @@
 		    	<article>
 		    		<section id="orderlist">
 		    			<section class="section">
-		    				<!-- 発送済み商品　-->
+		    				<!-- 購入履歴　-->
 		    				<div class="sectionheader">
-		    					<h3>発送済み商品</h3>
+		    					<h3>購入履歴</h3>
 		    				</div>
 		    				<div class="listblock clearfix">
 		    					<div class="orderlist">
 		    						<p class="orderstatus clearfix">
 		    							<span class="status">発送済み</span>
-		    							<span class="deliveryday">発送日 :20**.**.**</span>
 		    						</p>
 		    						<table class="orderdetail resist">
 		    							<tbody>
@@ -133,24 +136,11 @@
 		    				</div>
 		    			</section>
 		    		</section>
-		    		<section id="orderlist">
-		    			<section class="section">
-		    				<!-- 発送前商品 -->
-		    				<div class="sectionheader">
-		    					<h3>発送前商品</h3>
-		    				</div>
-		    				<div class="noresult">
-		    					<p class="txt">発送前商品はありません。</p>
-		    					<p class="info">
-		    						注文履歴の反映には、お時間がかかる場合があります。
-		    					</p>
-		    				</div>
-		    			</section>
-		    		</section>
 					<section id="secregist" class="section">
 						<div class="sectioninner">
 							<div class="sectionheader">
 								<h3>会員登録情報</h3>
+								</span>
 							</div>
 							<div class="sectionbody">
 								<table>
@@ -172,22 +162,7 @@
 										<tr>
 											<th>メールアドレス</th>
 											<td>abcdefg@hijk.co.jp</td>
-											<td class="change">
-												<p class="btn">
-													<a href="#">変更</a>
-												</p>
-											</td>
-										</tr>
-										<tr>
-											<th>パスワード</th>
-											<td>********
-												<span class="info password">※ セキュリティのためパスワードは非表示となっています。</span>
-											</td>
-											<td class="change">
-												<p class="btn">
-													<a href="#">変更</a>
-												</p>
-											</td>
+											<td></td>
 										</tr>
 									</tbody>
 								</table>
@@ -205,6 +180,6 @@
 					<li><a href="" title="" class=""> お問い合わせ</a></li>
 				</ul>
 			</div>
-  			<small><a href="/">LOGO</a></small>
+  			<small><a class="" href="#"><img src="img/logo.png" alt="" class="logo"></a></small>
 		</footer>
 	</body>
