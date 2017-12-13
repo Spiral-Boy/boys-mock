@@ -136,6 +136,10 @@ header a {
 .header-color {
 	background-color: #3d3d3e;
 }
+.logo {
+  width: 120px;
+  height: 45px;
+}
 .nav {
 	color: #fafafa;
 	padding-top: 5px;
