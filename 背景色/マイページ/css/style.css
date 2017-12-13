@@ -1,5 +1,11 @@
+.navbar-brand {
+	padding :0px;
+}
+.site-logo {
+    width: 120px;
+    height: 45px;
+}
 .site-header {
-	background-color: #8FBC8F;
 	background-color: #3d3d3e;
 	border: 0px;
 	border-radius: 0px;
