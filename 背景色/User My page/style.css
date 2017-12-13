@@ -7,6 +7,18 @@
 a {
 	text-decoration: none;
 }
+body {
+  overflow: visible !important;
+  background: -webkit-linear-gradient(45deg, #085078 10%, #85d8ce 90%);
+  background: -moz-linear-gradient(45deg, #085078 10%, #85d8ce 90%);
+  background: -ms-linear-gradient(45deg, #085078 10%, #85d8ce 90%);
+  background: -o-linear-gradient(45deg, #085078 10%, #85d8ce 90%);
+  background: linear-gradient(45deg, #085078 10%, #85d8ce 90%);
+ }
+#body {
+	margin-top: 60px;
+}
+
 .clearfix::after {
 	content:"";
 	display:block;
@@ -120,6 +132,171 @@ ol, ul {
 	font-size: 15px;
 	line-height: 1.1;
 }
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+table tbody tr {
+	border-bottom: 1px solid #dcdcdc;
+}
+table tbody th {
+	padding: 25px 0 23px 0;
+	border: none;
+	width: 175px;
+	vertical-align: middle;
+	font-size: 15px;
+}
+table tbody td {
+	padding: 25px 0 23px 0;
+	border: none;
+	line-height: 2.0;
+}
+th, td {
+	text-align: left;
+	vertical-align: middle;
+	empty-cells: show;
+	margin: 0 0 0 0;
+}
+#searchsidebar {
+	float: left;
+	width: 150px;
+	overflow: hidden;
+	margin-top: 50px;
+}
+#searchsidebar .sidebox {
+	margin: 23px 0 0;
+	padding: 0 0 15px;
+	border-bottom: solid 1px #3d3d3e;
+}
+#searchsidebar .sidebox h3 {
+	font-size: 18px;
+}
+#searchsidebar .sidebox ul {
+	margin-top: 8px;
+}
+#searchsidebar .sidebox ul li {
+	margin: 2px 0 0;
+}
+#searchsidebar .sidebox ul li a{
+	padding: 3px 0;
+	display: block;
+	color: #3d3d3e;
+}
+
+#content {
+	float: right;
+	width: 780px;
+	margin: 28px 0 0;
+}
+.section {
+	border-top: none;
+	padding: 0 0 25px 0;
+}
+.sectioninner {
+	padding: 36px 48px 40px 48px;
+	border: 1px solid #dcdcdc;
+	border-radius: 4px;
+	background-color: #f0f0f0;
+}
+.sectionheader {
+	border-bottom: 1px solid #dcdcdc;
+}
+#orderlist {
+	background: #f0f0f0;
+	border: 1px solid #dcdcdc;
+	border-radius: 4px;
+	padding: 36px 48px 40px;
+	margin-bottom: 25px;
+}
+#orderlist .noresult {
+	text-align: center;
+}
+#orderlist .noresult .txt {
+	margin: 40px 0 0 0;
+	font-size: 15px;
+}
+#orderlist .noresult .info {
+	margin: 40px 0 0 0;
+}
+
+.orderlist {
+	background: #f0f0f0;
+	padding: 15px 0 0;
+	margin: 15px 0 0;
+	border-radius: 4px;
+}
+.orderstatus {
+	padding: 0 10px;
+}
+.status {
+	font-size: 18px;
+}
+.deliveryday {
+	margin: 0 0 0 10px;
+}
+table .orderdetail {
+	padding: 17px 28px;
+}
+table.resist {
+	border-color: #d2d2d2;
+	border-bottom: 1px solid #dcdcdc;
+	border-collapse: separate;
+	padding: 45px 45px;
+}
+table.resist tbody tr {
+	border-bottom: none;
+}
+.goodsbox {
+	padding: 0;
+}
+.goodsdata {
+	width: 100%;
+	margin: 0 23px 15px 0;
+}
+.thumb {
+	width: 110px;
+	float: left;
+	margin-right: 15px;
+}
+.thumbdetail {
+	width: 450px;
+	float: left;
+}
+.thumbdetail .musicname {
+	width: 450px;
+}
+tr.thumbbox .thumbdetail .price {
+	font-size: 15px;
+}
+tr.thumbbox .thumbdetail .price .tax {
+	margin: 0 0 0 4px;
+	font-size: 11px;
+}
+tr.thumbbox .thumbdetail .price .cnt {
+	font-size: 11px;
+}
+.orderlist .orderpaydetail {
+	margin: 15px 0 0 0;
+	padding: 0 28px 15px;
+	font-size: 15px;
+}
+.orderlist .orderpaydetail li {
+	float: left;
+	padding: 0 20px 0 0;
+}
+
+
+table tbody td.change {
+	width: 51px;
+}
+
+table tbody td span.info.password {
+	margin: 0 0 0 20px;
+}
+.link {
+	text-align: right;
+	margin: 20px 0 0 0;
+}
 .form-footer {
   font-size: 1em;
   padding: 2em 0;
@@ -135,50 +312,16 @@ ol, ul {
 .form-footer a:hover {
   border-bottom: 1px dotted #8c8c8c;
 }
-header a {
-  font-size: 14px;
-}
 .header-color {
-	background-color: #8fbc8f;
+	background-color: #3d3d3e;
 }
 .nav {
 	color: #fafafa;
 	padding-top: 5px;
 }
-.search-bar {
-  padding-top: 50px;
-  background-color: silver;
-  border-radius: 0px;
-}
-#search-icon {
-  float: left;
-  padding-top: 9px;
-  font-size: 22px;
-}
-#itemsearch {
-  float: left;
-  padding-top: 12px;
-}
-#sidebar {
-  background-color: blue;
-  height: 500px;
-}
-#search-result{
-  /*background-color: green;*/
-  height: 500px;
-
-}
-.search-item {
-  width: 100px;
-  height: 120px;
-  margin: 10px;
-  float: left;
-  background-color: #8fbc8f;
-}
-.search-item-image {
-  width: 100px;
-  height: 100px;
-  background-color: #fafafa;
+.search {
+	width: 400px;
+	padding-bottom: 10px;
 }
 footer {
   text-align: center;
@@ -189,3 +332,4 @@ footer {
 footer a {
   color: #fafafa;
 }
+
