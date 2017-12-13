@@ -1,5 +1,11 @@
 .site-header {
-	background-color: #8FBC8F;
+	background-color: #3d3d3e;
+	border: 0px;
+	border-radius: 0px;
+}
+.nav {
+	color: #fafafa;
+	padding-top: 5px;
 }
 .search {
 	width: 400px;
@@ -36,4 +42,13 @@ ul {
 }
 .heading-text {
 	padding-left: 20px;
+}
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #3d3d3e;
+  margin-top: 20px;
+}
+footer a {
+  color: #fafafa;
 }
