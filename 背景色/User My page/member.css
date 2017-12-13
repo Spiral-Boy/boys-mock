@@ -189,8 +189,6 @@ table tbody td span.info.password {
 	text-align: right;
 	margin: 20px 0 0 0;
 }
-<<<<<<< HEAD
-
 body {
   overflow: visible !important;
   background: -webkit-linear-gradient(45deg, #085078 10%, #85d8ce 90%);
@@ -199,7 +197,6 @@ body {
   background: -o-linear-gradient(45deg, #085078 10%, #85d8ce 90%);
   background: linear-gradient(45deg, #085078 10%, #85d8ce 90%);
  }
-=======
 header a {
   font-size: 14px;
 }
@@ -258,4 +255,3 @@ footer {
 footer a {
   color: #fafafa;
 }
->>>>>>> origin/master
