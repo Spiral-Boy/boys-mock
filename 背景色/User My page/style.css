@@ -170,6 +170,7 @@ th, td {
 }
 #searchsidebar .sidebox h3 {
 	font-size: 18px;
+	color: #3d3d3e;
 }
 #searchsidebar .sidebox ul {
 	margin-top: 8px;
@@ -326,7 +327,7 @@ table tbody td span.info.password {
 footer {
   text-align: center;
   padding: 10px;
-  background: #8fbc8f;
+  background: #3d3d3e;
   margin-top: 20px;
 }
 footer a {

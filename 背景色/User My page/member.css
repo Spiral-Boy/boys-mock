@@ -26,7 +26,124 @@ body {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+#content {
+	float: right;
+	width: 780px;
+	margin: 28px 0 0;
+}
+.section {
+	border-top: none;
+	padding: 0 0 25px 0;
+}
+.sectioninner {
+	padding: 36px 48px 40px 48px;
+	border: 1px solid #dcdcdc;
+	border-radius: 4px;
+	background-color: #f0f0f0;
+}
+.sectionheader {
+	border-bottom: 1px solid #dcdcdc;
+}
+#orderlist {
+	background: #f0f0f0;
+	border: 1px solid #dcdcdc;
+	border-radius: 4px;
+	padding: 36px 48px 40px;
+	margin-bottom: 25px;
+}
+#orderlist .noresult {
+	text-align: center;
+}
+#orderlist .noresult .txt {
+	margin: 40px 0 0 0;
+	font-size: 15px;
+}
+#orderlist .noresult .info {
+	margin: 40px 0 0 0;
+}
+
+.orderlist {
+	background: #f0f0f0;
+	padding: 15px 0 0;
+	margin: 15px 0 0;
+	border-radius: 4px;
+}
+.orderstatus {
+	padding: 0 28px;
+}
+.status {
+	font-size: 18px;
+}
+.deliveryday {
+	margin: 0 0 0 10px;
+}
+table .orderdetail {
+	padding: 17px 28px;
+}
+table.resist {
+	border-color: #d2d2d2;
+	border-bottom: 1px solid #dcdcdc;
+	border-collapse: separate;
+	padding: 45px 45px;
+}
+table.resist tbody tr {
+	border-bottom: none;
+}
+.goodsbox {
+	padding: 0;
+}
+.goodsdata {
+	width: 100%;
+	margin: 0 23px 15px 0;
+}
+.thumb {
+	width: 110px;
+	float: left;
+	margin-right: 15px;
+}
+.thumbdetail {
+	width: 450px;
+	float: left;
+}
+.thumbdetail .musicname {
+	width: 450px;
+}
+tr.thumbbox .thumbdetail .price {
+	font-size: 15px;
+}
+tr.thumbbox .thumbdetail .price .tax {
+	margin: 0 0 0 4px;
+	font-size: 11px;
+}
+tr.thumbbox .thumbdetail .price .cnt {
+	font-size: 11px;
+}
+.orderlist .orderpaydetail {
+	margin: 15px 0 0 0;
+	padding: 0 28px 15px;
+	font-size: 15px;
+}
+.orderlist .orderpaydetail li {
+	float: left;
+	padding: 0 20px 0 0;
+}
+
+
+table tbody td.change {
+	width: 51px;
+}
+
+table tbody td span.info.password {
+	margin: 0 0 0 20px;
+}
+.link {
+	text-align: right;
+	margin: 20px 0 0 0;
+}
+>>>>>>> origin/master
 body {
   overflow: visible !important;
   background: -webkit-linear-gradient(45deg, #085078 10%, #85d8ce 90%);
@@ -35,12 +152,15 @@ body {
   background: -o-linear-gradient(45deg, #085078 10%, #85d8ce 90%);
   background: linear-gradient(45deg, #085078 10%, #85d8ce 90%);
  }
-=======
 header a {
   font-size: 14px;
 }
 .header-color {
 	background-color: #3d3d3e;
+}
+.logo {
+  width: 120px;
+  height: 45px;
 }
 .nav {
 	color: #fafafa;
@@ -90,4 +210,3 @@ footer {
 footer a {
   color: #fafafa;
 }
->>>>>>> origin/master
